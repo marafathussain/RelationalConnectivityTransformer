@@ -30,6 +30,7 @@ python -m source --multirun model=rbnt score=fiq
 
 - **score**: set either of ```piq``` (for PIQ), ```viq``` (for VIQ), ```fiq``` (for FSIQ), ```piq_r``` (for rPIQ), ```viq_r``` (for rVIQ), or ```fiq_r``` (for rFSIQ). 
 
+Please note that this code is configured to run in a 5-folds cross-validation setup. 
 
 ## Installation
 
