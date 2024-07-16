@@ -1,0 +1,17 @@
+defaults:
+  - dataset: ABIDE
+  - model: rbnt # brainnetcnn, fbnetgen, bnt, transformer
+  - optimizer: adam
+  - training: basic_training
+  - datasz: 100p
+  - preprocess: non_mixup
+
+
+score: fiq
+repeat_time: 1
+log_path: result
+save_learnable_graph: False
+
+# wandb
+wandb_entity: eggroup
+project: brainnetworktransformer

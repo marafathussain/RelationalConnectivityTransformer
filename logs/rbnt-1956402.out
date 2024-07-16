@@ -1,0 +1,21 @@
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'config': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+[2024-07-16 17:27:28,760][HYDRA] Launching 1 jobs locally
+[2024-07-16 17:27:28,760][HYDRA] 	#0 : model=rbnt score=fiq
+wandb: Currently logged in as: mhdarafat. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.17.4 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.11
+wandb: Run data is saved locally in /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_172730-1e2viuho
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run peachy-lake-212
+wandb: ⭐️ View project at https://wandb.ai/mhdarafat/brainnetworktransformer
+wandb: 🚀 View run at https://wandb.ai/mhdarafat/brainnetworktransformer/runs/1e2viuho
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+[2024-07-16 17:27:48,761][optimizer.py][L65][INFO] Parameters [normal] length [51]
+[2024-07-16 17:27:48,763][training.py][L35][INFO] #model params: 4782164
+[2024-07-16 17:40:25,683][training.py][L426][INFO] Epoch[1/10] | Train Loss: 91.512 | Train Acc: 1.399 | val Loss: 231.868 | val Acc - L1: 10.254 | val Acc - L2: 10.214
+[2024-07-16 17:53:19,604][training.py][L426][INFO] Epoch[2/10] | Train Loss: 2.673 | Train Acc: 0.410 | val Loss: 261.426 | val Acc - L1: 11.199 | val Acc - L2: 11.182
+[2024-07-16 18:05:49,869][training.py][L426][INFO] Epoch[3/10] | Train Loss: 2.409 | Train Acc: 0.353 | val Loss: 279.808 | val Acc - L1: 11.437 | val Acc - L2: 11.477
+[2024-07-16 18:18:33,305][training.py][L426][INFO] Epoch[4/10] | Train Loss: 2.257 | Train Acc: 0.310 | val Loss: 281.668 | val Acc - L1: 11.597 | val Acc - L2: 11.671

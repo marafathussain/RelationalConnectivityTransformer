@@ -1,0 +1,7 @@
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+[2024-07-16 17:27:50,370][optimizer.py][L65][INFO] Parameters [normal] length [82]
+[2024-07-16 17:27:50,373][training.py][L35][INFO] #model params: 8530100
+[2024-07-16 17:41:25,880][training.py][L426][INFO] Epoch[1/10] | Train Loss: 100.789 | Train Acc: 1.673 | val Loss: 259.375 | val Acc - L1: 10.510 | val Acc - L2: 11.129
+[2024-07-16 17:55:27,627][training.py][L426][INFO] Epoch[2/10] | Train Loss: 3.275 | Train Acc: 0.520 | val Loss: 250.602 | val Acc - L1: 10.319 | val Acc - L2: 11.158
+[2024-07-16 18:09:05,363][training.py][L426][INFO] Epoch[3/10] | Train Loss: 2.746 | Train Acc: 0.422 | val Loss: 243.221 | val Acc - L1: 10.385 | val Acc - L2: 10.676

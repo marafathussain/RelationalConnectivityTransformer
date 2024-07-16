@@ -1,0 +1,44 @@
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'config': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+[2024-07-16 17:27:51,111][HYDRA] Launching 1 jobs locally
+[2024-07-16 17:27:51,111][HYDRA] 	#0 : model=rbnt3 score=fiq
+wandb: Currently logged in as: mhdarafat. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.17.4 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.11
+wandb: Run data is saved locally in /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_172752-d3pyci71
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run valiant-plant-214
+wandb: ⭐️ View project at https://wandb.ai/mhdarafat/brainnetworktransformer
+wandb: 🚀 View run at https://wandb.ai/mhdarafat/brainnetworktransformer/runs/d3pyci71
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+[2024-07-16 17:28:00,546][optimizer.py][L65][INFO] Parameters [normal] length [84]
+[2024-07-16 17:28:00,548][training.py][L35][INFO] #model params: 8530422
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/modules/loss.py:520: UserWarning: Using a target size (torch.Size([16, 4])) that is different to the input size (torch.Size([16, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: - 0.005 MB of 0.005 MB uploaded (0.000 MB deduped)wandb: \ 0.009 MB of 0.009 MB uploaded (0.000 MB deduped)wandb: 🚀 View run valiant-plant-214 at: https://wandb.ai/mhdarafat/brainnetworktransformer/runs/d3pyci71
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240716_172752-d3pyci71/logs
+Error executing job with overrides: ['model=rbnt3', 'score=fiq']
+Traceback (most recent call last):
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 71, in main
+    model_training(cfg)
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 57, in model_training
+    training.train()
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/training/training.py", line 402, in train
+    self.train_pairs_per_epoch(self.config, self.train_dataloader, self.optimizers[0], self.lr_schedulers[0])
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/training/training.py", line 209, in train_pairs_per_epoch
+    loss = self.loss_fn(predict, combined_label)
+  File "/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/modules/loss.py", line 520, in forward
+    return F.mse_loss(input, target, reduction=self.reduction)
+  File "/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/functional.py", line 3111, in mse_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+  File "/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/functional.py", line 72, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+RuntimeError: The size of tensor a (2) must match the size of tensor b (4) at non-singleton dimension 1
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

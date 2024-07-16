@@ -1,0 +1,14 @@
+Error executing job with overrides: ['model=rbnt4', 'score=fiq']
+Traceback (most recent call last):
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 71, in main
+    model_training(cfg)
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 52, in model_training
+    model = model_factory(cfg)
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/models/__init__.py", line 8, in model_factory
+    return eval(config.model.name)(config).cuda()
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/models/RBNT/rbnt4.py", line 77, in __init__
+    self.attention_list1.append(
+  File "/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/modules/module.py", line 1178, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'RelationalBrainNetworkTransformer4' object has no attribute 'attention_list1'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,3 @@
+[2024-07-16 18:06:12,689][optimizer.py][L65][INFO] Parameters [normal] length [82]
+[2024-07-16 18:06:12,692][training.py][L35][INFO] #model params: 8530100
+[2024-07-16 18:18:09,680][training.py][L421][INFO] Epoch[1/10] | Train Loss: 33.400 | Train Acc: 1.241 | val Loss: 285.707 | val Acc - L1: 11.539 | val Acc - L2: 11.328

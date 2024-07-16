@@ -1,0 +1,34 @@
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'config': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+[2024-07-16 15:56:22,607][HYDRA] Launching 1 jobs locally
+[2024-07-16 15:56:22,607][HYDRA] 	#0 : model=rbnt score=fiq
+wandb: Currently logged in as: mhdarafat. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.17.4 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.11
+wandb: Run data is saved locally in /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_155624-yci38g63
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run valiant-bee-211
+wandb: ⭐️ View project at https://wandb.ai/mhdarafat/brainnetworktransformer
+wandb: 🚀 View run at https://wandb.ai/mhdarafat/brainnetworktransformer/runs/yci38g63
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+[2024-07-16 15:56:39,319][optimizer.py][L65][INFO] Parameters [normal] length [51]
+[2024-07-16 15:56:39,322][training.py][L35][INFO] #model params: 4782164
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: - 0.005 MB of 0.005 MB uploaded (0.000 MB deduped)wandb: \ 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: 🚀 View run valiant-bee-211 at: https://wandb.ai/mhdarafat/brainnetworktransformer/runs/yci38g63
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240716_155624-yci38g63/logs
+Error executing job with overrides: ['model=rbnt', 'score=fiq']
+Traceback (most recent call last):
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 71, in main
+    model_training(cfg)
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 57, in model_training
+    training.train()
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/training/training.py", line 414, in train
+    overall_mae = self.saving_criteria(val_result['label1'], val_result['label2'], val_result['combined_scores'], val_result['predicted_score'])
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/training/training.py", line 278, in saving_criteria
+    combined = combined.reshape(x*y, 2) #4)
+ValueError: cannot reshape array of size 6400 into shape (1600,2)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

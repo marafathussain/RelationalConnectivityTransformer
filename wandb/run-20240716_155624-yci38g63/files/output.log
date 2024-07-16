@@ -1,0 +1,16 @@
+/neuro/labs/grantlab/users/arafat.hussain/bnt/lib64/python3.6/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+[2024-07-16 15:56:39,319][optimizer.py][L65][INFO] Parameters [normal] length [51]
+[2024-07-16 15:56:39,322][training.py][L35][INFO] #model params: 4782164
+Error executing job with overrides: ['model=rbnt', 'score=fiq']
+Traceback (most recent call last):
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 71, in main
+    model_training(cfg)
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/__main__.py", line 57, in model_training
+    training.train()
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/training/training.py", line 414, in train
+    overall_mae = self.saving_criteria(val_result['label1'], val_result['label2'], val_result['combined_scores'], val_result['predicted_score'])
+  File "/neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/source/training/training.py", line 278, in saving_criteria
+    combined = combined.reshape(x*y, 2) #4)
+ValueError: cannot reshape array of size 6400 into shape (1600,2)
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

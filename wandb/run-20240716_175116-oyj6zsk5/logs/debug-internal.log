@@ -1,0 +1,184 @@
+2024-07-16 17:51:16,778 INFO    StreamThr :452722 [internal.py:wandb_internal():89] W&B internal server running at pid: 452722, started at: 2024-07-16 17:51:16.775446
+2024-07-16 17:51:16,779 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: status
+2024-07-16 17:51:16,794 INFO    WriterThread:452722 [datastore.py:open_for_write():85] open: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/run-oyj6zsk5.wandb
+2024-07-16 17:51:16,798 DEBUG   SenderThread:452722 [sender.py:send():380] send: header
+2024-07-16 17:51:16,799 DEBUG   SenderThread:452722 [sender.py:send():380] send: run
+2024-07-16 17:51:18,842 INFO    SenderThread:452722 [dir_watcher.py:__init__():211] watching files in: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files
+2024-07-16 17:51:18,843 INFO    SenderThread:452722 [sender.py:_start_run_threads():1125] run started: oyj6zsk5 with start time 1721166676.754057
+2024-07-16 17:51:18,901 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: check_version
+2024-07-16 17:51:18,956 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: check_version
+2024-07-16 17:51:19,115 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: run_start
+2024-07-16 17:51:20,680 DEBUG   HandlerThread:452722 [system_info.py:__init__():32] System info init
+2024-07-16 17:51:20,680 DEBUG   HandlerThread:452722 [system_info.py:__init__():47] System info init done
+2024-07-16 17:51:20,680 INFO    HandlerThread:452722 [system_monitor.py:start():181] Starting system monitor
+2024-07-16 17:51:20,680 INFO    SystemMonitor:452722 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-07-16 17:51:20,681 INFO    HandlerThread:452722 [system_monitor.py:probe():201] Collecting system info
+2024-07-16 17:51:20,681 INFO    SystemMonitor:452722 [interfaces.py:start():190] Started cpu monitoring
+2024-07-16 17:51:20,683 INFO    SystemMonitor:452722 [interfaces.py:start():190] Started disk monitoring
+2024-07-16 17:51:20,685 INFO    SystemMonitor:452722 [interfaces.py:start():190] Started gpu monitoring
+2024-07-16 17:51:20,687 INFO    SystemMonitor:452722 [interfaces.py:start():190] Started memory monitoring
+2024-07-16 17:51:20,688 INFO    SystemMonitor:452722 [interfaces.py:start():190] Started network monitoring
+2024-07-16 17:51:20,736 DEBUG   HandlerThread:452722 [system_info.py:probe():196] Probing system
+2024-07-16 17:51:20,736 DEBUG   HandlerThread:452722 [gitlib.py:_init_repo():53] git repository is invalid
+2024-07-16 17:51:20,736 DEBUG   HandlerThread:452722 [system_info.py:probe():244] Probing system done
+2024-07-16 17:51:20,736 DEBUG   HandlerThread:452722 [system_monitor.py:probe():210] {'os': 'Linux-4.18.0-553.8.1.el8_10.x86_64-x86_64-with-centos-8.9-Green_Obsidian', 'python': '3.6.8', 'heartbeatAt': '2024-07-16T21:51:20.736357', 'startedAt': '2024-07-16T21:51:16.718739', 'docker': None, 'cuda': None, 'args': ('--multirun', 'model=rbnt4', 'score=fiq'), 'state': 'running', 'program': '-m source.__main__', 'codePathLocal': None, 'host': 'gpu-2-0.tch.harvard.edu', 'username': 'ch225256', 'executable': '/neuro/labs/grantlab/users/arafat.hussain/bnt/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2971.8099, 'min': 3200.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2700.001, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2698.574, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2700.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2699.999, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2737.375, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2708.045, 'min': 3200.0, 'max': 3200.0}, {'current': 1550.356, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2769.35, 'min': 3200.0, 'max': 3200.0}, {'current': 1831.351, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2700.003, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2700.002, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2698.166, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2747.9, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2750.022, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 2560.256, 'min': 3200.0, 'max': 3200.0}, {'current': 2438.621, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}, {'current': 1743.573, 'min': 3200.0, 'max': 3200.0}, {'current': 3200.0, 'min': 3200.0, 'max': 3200.0}], 'disk': {'/': {'total': 69.9658203125, 'used': 24.757705688476562}}, 'gpu': 'NVIDIA TITAN RTX', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA TITAN RTX', 'memory_total': 25769803776}], 'memory': {'total': 187.05470275878906}}
+2024-07-16 17:51:20,737 INFO    HandlerThread:452722 [system_monitor.py:probe():211] Finished collecting system info
+2024-07-16 17:51:20,737 INFO    HandlerThread:452722 [system_monitor.py:probe():214] Publishing system info
+2024-07-16 17:51:20,737 DEBUG   HandlerThread:452722 [system_info.py:_save_pip():53] Saving list of pip packages installed into the current environment
+2024-07-16 17:51:20,740 DEBUG   HandlerThread:452722 [system_info.py:_save_pip():68] Saving pip packages done
+2024-07-16 17:51:20,744 INFO    HandlerThread:452722 [system_monitor.py:probe():216] Finished publishing system info
+2024-07-16 17:51:20,796 DEBUG   SenderThread:452722 [sender.py:send():380] send: files
+2024-07-16 17:51:20,796 INFO    SenderThread:452722 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-07-16 17:51:20,812 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: internal_messages
+2024-07-16 17:51:20,812 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-16 17:51:20,849 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_created():271] file/dir created: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/requirements.txt
+2024-07-16 17:51:20,850 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_created():271] file/dir created: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/wandb-metadata.json
+2024-07-16 17:51:20,862 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: stop_status
+2024-07-16 17:51:21,045 DEBUG   SenderThread:452722 [sender.py:send():380] send: telemetry
+2024-07-16 17:51:21,173 INFO    wandb-upload_0:452722 [upload_job.py:push():131] Uploaded file /tmp/tmpfziltleawandb/a5ilsbco-wandb-metadata.json
+2024-07-16 17:51:21,851 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_created():271] file/dir created: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/output.log
+2024-07-16 17:51:22,697 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: status_report
+2024-07-16 17:51:23,851 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_modified():288] file/dir modified: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/output.log
+2024-07-16 17:51:27,854 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_modified():288] file/dir modified: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/output.log
+2024-07-16 17:51:28,537 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: status_report
+2024-07-16 17:51:33,537 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: status_report
+2024-07-16 17:51:35,852 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: internal_messages
+2024-07-16 17:51:35,852 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-16 17:51:35,902 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: stop_status
+2024-07-16 17:51:36,615 DEBUG   SenderThread:452722 [sender.py:send():380] send: exit
+2024-07-16 17:51:36,616 INFO    SenderThread:452722 [sender.py:send_exit():585] handling exit code: 1
+2024-07-16 17:51:36,616 INFO    SenderThread:452722 [sender.py:send_exit():587] handling runtime: 17
+2024-07-16 17:51:36,620 INFO    SenderThread:452722 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-16 17:51:36,620 INFO    SenderThread:452722 [sender.py:send_exit():593] send defer
+2024-07-16 17:51:36,630 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,630 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 0
+2024-07-16 17:51:36,635 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,636 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-07-16 17:51:36,636 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 1
+2024-07-16 17:51:36,638 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,638 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 1
+2024-07-16 17:51:36,643 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,643 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-07-16 17:51:36,643 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 2
+2024-07-16 17:51:36,645 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,645 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 2
+2024-07-16 17:51:36,645 INFO    HandlerThread:452722 [system_monitor.py:finish():190] Stopping system monitor
+2024-07-16 17:51:36,657 DEBUG   SystemMonitor:452722 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-07-16 17:51:36,657 DEBUG   SystemMonitor:452722 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-07-16 17:51:36,657 DEBUG   SystemMonitor:452722 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-07-16 17:51:36,661 INFO    HandlerThread:452722 [interfaces.py:finish():202] Joined cpu monitor
+2024-07-16 17:51:36,662 INFO    HandlerThread:452722 [interfaces.py:finish():202] Joined disk monitor
+2024-07-16 17:51:36,748 INFO    HandlerThread:452722 [interfaces.py:finish():202] Joined gpu monitor
+2024-07-16 17:51:36,748 INFO    HandlerThread:452722 [interfaces.py:finish():202] Joined memory monitor
+2024-07-16 17:51:36,748 INFO    HandlerThread:452722 [interfaces.py:finish():202] Joined network monitor
+2024-07-16 17:51:36,758 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,759 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-07-16 17:51:36,759 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 3
+2024-07-16 17:51:36,764 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,764 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 3
+2024-07-16 17:51:36,774 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,774 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-07-16 17:51:36,774 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 4
+2024-07-16 17:51:36,779 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,779 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 4
+2024-07-16 17:51:36,790 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,790 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-07-16 17:51:36,790 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 5
+2024-07-16 17:51:36,795 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,795 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 5
+2024-07-16 17:51:36,805 DEBUG   SenderThread:452722 [sender.py:send():380] send: summary
+2024-07-16 17:51:36,808 INFO    SenderThread:452722 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-16 17:51:36,809 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,809 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-07-16 17:51:36,809 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 6
+2024-07-16 17:51:36,810 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:36,810 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 6
+2024-07-16 17:51:36,824 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:36,824 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-07-16 17:51:36,830 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: status_report
+2024-07-16 17:51:36,863 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_created():271] file/dir created: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/wandb-summary.json
+2024-07-16 17:51:37,558 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 7
+2024-07-16 17:51:37,594 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:37,595 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 7
+2024-07-16 17:51:37,595 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-16 17:51:37,621 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:37,622 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-07-16 17:51:37,704 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 8
+2024-07-16 17:51:37,705 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: poll_exit
+2024-07-16 17:51:37,708 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:37,708 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 8
+2024-07-16 17:51:37,712 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:37,712 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-07-16 17:51:37,712 INFO    SenderThread:452722 [job_builder.py:build():281] Attempting to build job artifact
+2024-07-16 17:51:37,713 INFO    SenderThread:452722 [job_builder.py:_get_source_type():404] no source found
+2024-07-16 17:51:37,713 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 9
+2024-07-16 17:51:37,716 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:37,716 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 9
+2024-07-16 17:51:37,720 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:37,720 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-07-16 17:51:37,720 INFO    SenderThread:452722 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-16 17:51:37,863 INFO    Thread-12 :452722 [dir_watcher.py:_on_file_modified():288] file/dir modified: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/config.yaml
+2024-07-16 17:51:37,864 INFO    SenderThread:452722 [dir_watcher.py:_on_file_modified():288] file/dir modified: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/output.log
+2024-07-16 17:51:37,865 INFO    SenderThread:452722 [dir_watcher.py:finish():388] scan: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files
+2024-07-16 17:51:37,866 INFO    SenderThread:452722 [dir_watcher.py:finish():402] scan save: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/config.yaml config.yaml
+2024-07-16 17:51:37,866 INFO    SenderThread:452722 [dir_watcher.py:finish():402] scan save: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/output.log output.log
+2024-07-16 17:51:37,870 INFO    SenderThread:452722 [dir_watcher.py:finish():402] scan save: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/requirements.txt requirements.txt
+2024-07-16 17:51:37,872 INFO    SenderThread:452722 [dir_watcher.py:finish():402] scan save: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/wandb-metadata.json wandb-metadata.json
+2024-07-16 17:51:37,873 INFO    SenderThread:452722 [dir_watcher.py:finish():402] scan save: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/wandb-summary.json wandb-summary.json
+2024-07-16 17:51:37,873 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 10
+2024-07-16 17:51:37,879 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:37,880 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 10
+2024-07-16 17:51:37,891 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:37,891 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-07-16 17:51:37,891 INFO    SenderThread:452722 [file_pusher.py:finish():175] shutting down file pusher
+2024-07-16 17:51:38,076 INFO    wandb-upload_1:452722 [upload_job.py:push():131] Uploaded file /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/config.yaml
+2024-07-16 17:51:38,104 INFO    wandb-upload_2:452722 [upload_job.py:push():131] Uploaded file /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/output.log
+2024-07-16 17:51:38,154 INFO    wandb-upload_0:452722 [upload_job.py:push():131] Uploaded file /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/wandb-summary.json
+2024-07-16 17:51:38,177 INFO    wandb-upload_3:452722 [upload_job.py:push():131] Uploaded file /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/files/requirements.txt
+2024-07-16 17:51:38,378 INFO    Thread-11 :452722 [sender.py:transition_state():613] send defer: 11
+2024-07-16 17:51:38,395 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:38,395 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 11
+2024-07-16 17:51:38,412 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:38,412 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-07-16 17:51:38,412 INFO    SenderThread:452722 [file_pusher.py:join():181] waiting for file pusher
+2024-07-16 17:51:38,412 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 12
+2024-07-16 17:51:38,427 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:38,427 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 12
+2024-07-16 17:51:38,444 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:38,444 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-07-16 17:51:38,444 INFO    SenderThread:452722 [file_stream.py:finish():595] file stream finish called
+2024-07-16 17:51:38,591 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-16 17:51:38,781 INFO    SenderThread:452722 [file_stream.py:finish():599] file stream finish is done
+2024-07-16 17:51:38,781 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 13
+2024-07-16 17:51:38,781 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: poll_exit
+2024-07-16 17:51:38,805 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:38,805 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 13
+2024-07-16 17:51:38,813 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:38,813 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-07-16 17:51:38,813 INFO    SenderThread:452722 [sender.py:transition_state():613] send defer: 14
+2024-07-16 17:51:38,821 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: defer
+2024-07-16 17:51:38,821 INFO    HandlerThread:452722 [handler.py:handle_request_defer():170] handle defer: 14
+2024-07-16 17:51:38,828 DEBUG   SenderThread:452722 [sender.py:send():380] send: final
+2024-07-16 17:51:38,828 DEBUG   SenderThread:452722 [sender.py:send():380] send: footer
+2024-07-16 17:51:38,829 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: defer
+2024-07-16 17:51:38,829 INFO    SenderThread:452722 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-07-16 17:51:38,935 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-16 17:51:38,935 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-16 17:51:38,935 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: server_info
+2024-07-16 17:51:38,935 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: get_summary
+2024-07-16 17:51:38,935 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: sampled_history
+2024-07-16 17:51:38,935 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: internal_messages
+2024-07-16 17:51:38,942 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: poll_exit
+2024-07-16 17:51:38,943 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: poll_exit
+2024-07-16 17:51:38,943 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: server_info
+2024-07-16 17:51:39,001 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: job_info
+2024-07-16 17:51:39,022 DEBUG   SenderThread:452722 [sender.py:send_request():407] send_request: job_info
+2024-07-16 17:51:39,032 INFO    MainThread:452722 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2024-07-16 17:51:39,032 INFO    MainThread:452722 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2024-07-16 17:51:39,032 INFO    MainThread:452722 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2024-07-16 17:51:39,033 DEBUG   HandlerThread:452722 [handler.py:handle_request():144] handle_request: shutdown
+2024-07-16 17:51:39,033 INFO    HandlerThread:452722 [handler.py:finish():844] shutting down handler
+2024-07-16 17:51:40,008 INFO    WriterThread:452722 [datastore.py:close():294] close: /neuro/labs/grantlab/users/arafat.hussain/RelationalConnectivityTransformer/wandb/run-20240716_175116-oyj6zsk5/run-oyj6zsk5.wandb
+2024-07-16 17:51:40,023 INFO    SenderThread:452722 [sender.py:finish():1534] shutting down sender
+2024-07-16 17:51:40,023 INFO    SenderThread:452722 [file_pusher.py:finish():175] shutting down file pusher
+2024-07-16 17:51:40,023 INFO    SenderThread:452722 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,245 @@
+{
+    "os": "Linux-4.18.0-553.8.1.el8_10.x86_64-x86_64-with-centos-8.9-Green_Obsidian",
+    "python": "3.6.8",
+    "heartbeatAt": "2024-07-16T21:44:23.480532",
+    "startedAt": "2024-07-16T21:44:21.198920",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--multirun",
+        "model=rbnt4",
+        "score=fiq"
+    ],
+    "state": "running",
+    "program": "-m source.__main__",
+    "codePathLocal": null,
+    "host": "gpu-2-0.tch.harvard.edu",
+    "username": "ch225256",
+    "executable": "/neuro/labs/grantlab/users/arafat.hussain/bnt/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 2880.848825,
+        "min": 3200.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2739.3,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2683.295,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2733.139,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2714.234,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2804.727,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2791.513,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1752.406,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2801.32,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2730.416,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2707.333,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2739.54,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2701.394,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2735.653,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2799.682,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2816.524,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2806.668,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2786.082,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1854.583,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1763.488,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 69.9658203125,
+            "used": 24.7567138671875
+        }
+    },
+    "gpu": "NVIDIA TITAN RTX",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA TITAN RTX",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 187.05470275878906
+    }
+}
