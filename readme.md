@@ -6,7 +6,7 @@ This is the code repository for our [paper](#cite) titled "RCT: Relational Conne
 
 ## Acknowledgement
 
-I adopted this repository from Xuan Kan's GitHub [Repo](https://github.com/Wayfear/BrainNetworkTransformer), and then I modified, written, and rewritten different part of this project codes as per my requirement.
+I adopted this repository from Xuan Kan's GitHub [Repo](https://github.com/Wayfear/BrainNetworkTransformer), and then modified, wrote, and rewrote different parts of this project codes as per my requirement.
 
 ## Dataset
 
