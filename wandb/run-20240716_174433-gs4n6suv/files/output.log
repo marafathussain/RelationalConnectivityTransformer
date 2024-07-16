@@ -3,3 +3,5 @@
 [2024-07-16 17:44:42,153][optimizer.py][L65][INFO] Parameters [normal] length [84]
 [2024-07-16 17:44:42,156][training.py][L35][INFO] #model params: 8530744
 [2024-07-16 17:58:53,132][training.py][L426][INFO] Epoch[1/10] | Train Loss: 182.401 | Train Acc: 2.580 | val Loss: 272.790 | val Acc - L1: 10.441 | val Acc - L2: 12.093
+[2024-07-16 18:13:05,144][training.py][L426][INFO] Epoch[2/10] | Train Loss: 3.728 | Train Acc: 0.556 | val Loss: 255.738 | val Acc - L1: 10.609 | val Acc - L2: 11.292
+[2024-07-16 18:27:12,904][training.py][L426][INFO] Epoch[3/10] | Train Loss: 2.836 | Train Acc: 0.423 | val Loss: 277.672 | val Acc - L1: 10.848 | val Acc - L2: 11.477

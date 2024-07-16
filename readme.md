@@ -1,12 +1,6 @@
-rbnt - architecture 1
-rbnt2 - architecture 2
-rbnt3 - architecture 3
-rbnt4 - architecture 4
-
-
 # Relational Connectivity Transformer
 
-This is the code repository for our [paper](#cite) titled [RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence](tbd) that introduces the Relational Connectivity Transformer (RCT), a novel Graph-Transformer model designed for predicting absolute and residual full-scale intelligence quotient (FSIQ), performance IQ (PIQ), and verbal IQ (VIQ) scores from resting-state functional magnetic resonance imaging (rs-fMRI) data.
+This is the code repository for our [paper](#cite) titled [RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence](https://github.com/marafathussain/marafathussain.github.io/blob/source/assets/pdf/prime2024.pdf) that introduces the Relational Connectivity Transformer (RCT), a novel Graph-Transformer model designed for predicting absolute and residual full-scale intelligence quotient (FSIQ), performance IQ (PIQ), and verbal IQ (VIQ) scores from resting-state functional magnetic resonance imaging (rs-fMRI) data.
 
 ![Relational Connectivity Transformer](figure/Fig1.png)
 
@@ -39,7 +33,7 @@ python -m source --multirun model=rbnt score=fiq
 
 ## Installation
 
-```bash
+```
 conda create --name bnt python=3.9
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda install -c conda-forge wandb
@@ -61,15 +55,17 @@ conda install -c conda-forge pandas
   - hydra-core=1.2.0
 
 
-## Citation
+<a name="cite"></a>
+
+## Cite
 
 Please cite our paper if you find this code useful for your work:
-```bibtex
+```
 @inproceedings{
-  kan2022bnt,
-  title={BRAIN NETWORK TRANSFORMER},
-  author={Xuan Kan and Wei Dai and Hejie Cui and Zilong Zhang and Ying Guo and Carl Yang},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2022},
+  hussain2024rct,
+  title={RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence},
+  author={Mohammad Arafat Hussain and Ellen Grant and Yangming Ou},
+  booktitle={6th International Workshop of Predictive Intelligence in Medicine (PRIME)},
+  year={2024},
 }
 ```
