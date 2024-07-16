@@ -1,6 +1,6 @@
 # Relational Connectivity Transformer
 
-This is the code repository for our [paper](#cite) titled [RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence](https://github.com/marafathussain/marafathussain.github.io/blob/source/assets/pdf/prime2024.pdf) that introduces the Relational Connectivity Transformer (RCT), a novel Graph-Transformer model designed for predicting absolute and residual full-scale intelligence quotient (FSIQ), performance IQ (PIQ), and verbal IQ (VIQ) scores from resting-state functional magnetic resonance imaging (rs-fMRI) data.
+This is the code repository for our [paper](#cite) titled "RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence" [PDF](https://github.com/marafathussain/marafathussain.github.io/blob/source/assets/pdf/prime2024.pdf) that introduces the Relational Connectivity Transformer (RCT), a novel Graph-Transformer model designed for predicting absolute and residual full-scale intelligence quotient (FSIQ), performance IQ (PIQ), and verbal IQ (VIQ) scores from resting-state functional magnetic resonance imaging (rs-fMRI) data.
 
 ![Relational Connectivity Transformer](figure/Fig1.png)
 
@@ -20,15 +20,15 @@ Run the  ```data_fetch_process.ipynb``` notebook step-by-step to generate the da
 
 1. Set the ```path``` in the file ```source/conf/dataset/ABIDE.yaml``` to the path of your dataset.
 
-2. Run the following command to train the model:
+2. Run the following command to train a model:
 
 ```
 python -m source --multirun model=rbnt score=fiq
 ```
 
-- **model**, set either of ```rbnt```, ```rbnt2```, ```rbnt3```, or ```rbnt4```, which correspond to architecture 1, 2, 3, and 4, respectively, used in our ablation study. We found optimal architecture being 3 (i.e., ```rbnt3```), and our reported results correspond to ```rbnt3```.
+- **model**: set either of ```rbnt```, ```rbnt2```, ```rbnt3```, or ```rbnt4```, which correspond to architecture 1, 2, 3, and 4, respectively, used in our ablation study. We found optimal architecture being 3 (i.e., ```rbnt3```), and our reported results correspond to ```rbnt3```.
 
-- **score**, set either of ```piq``` (for PIQ), ```viq``` (for VIQ), ```fiq``` (for FSIQ), ```piq_r``` (for rPIQ), ```viq_r``` (for rVIQ), or ```fiq_r``` (for rFSIQ). 
+- **score**: set either of ```piq``` (for PIQ), ```viq``` (for VIQ), ```fiq``` (for FSIQ), ```piq_r``` (for rPIQ), ```viq_r``` (for rVIQ), or ```fiq_r``` (for rFSIQ). 
 
 
 ## Installation
