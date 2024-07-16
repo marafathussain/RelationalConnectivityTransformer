@@ -1,6 +1,6 @@
 # Relational Connectivity Transformer
 
-This is the code repository for our [paper](#cite) titled "RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence" [PDF](https://github.com/marafathussain/marafathussain.github.io/blob/source/assets/pdf/prime2024.pdf) that introduces the Relational Connectivity Transformer (RCT), a novel Graph-Transformer model designed for predicting absolute and residual full-scale intelligence quotient (FSIQ), performance IQ (PIQ), and verbal IQ (VIQ) scores from resting-state functional magnetic resonance imaging (rs-fMRI) data.
+This is the code repository for our [paper](#cite) titled "RCT: Relational Connectivity Transformer for Enhanced Prediction of Absolute and Residual Intelligence" [[PDF]](https://github.com/marafathussain/marafathussain.github.io/blob/source/assets/pdf/prime2024.pdf) that introduces the Relational Connectivity Transformer (RCT), a novel Graph-Transformer model designed for predicting absolute and residual full-scale intelligence quotient (FSIQ), performance IQ (PIQ), and verbal IQ (VIQ) scores from resting-state functional magnetic resonance imaging (rs-fMRI) data.
 
 ![Relational Connectivity Transformer](figure/Fig1.png)
 
