@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Hussain
+  given-names: Mohammad Arafat
+orcid: https://orcid.org/0000-0003-0545-5779
+title: DeepIQ: Neurocognitive Outcome Prediction from Functional MRI
+version: DeepIQ - fMRI
+date-released: 2025-12-01
